@@ -97,7 +97,8 @@
     </p>
     <div class="box-container">
       <div class="box">
-        <img src="assets/images/jh120.png" alt="Brotherhood Heavyweight Signature Hoodie" class="merch-image" />
+        <!-- ⚡ Bolt: Lazy-load below-fold assets to improve LCP -->
+        <img src="assets/images/jh120.png" alt="Brotherhood Heavyweight Signature Hoodie" class="merch-image" loading="lazy" />
         <h3>Brotherhood Heavyweight Signature Hoodie</h3>
         <p>Contact us to purchase.</p>
       </div>
@@ -124,10 +125,11 @@
 
   <section id="instagram" class="box-section">
     <h2>News</h2>
-    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+    <!-- ⚡ Bolt: Defer non-critical scripts and lazy-load below-fold assets to improve main thread execution and LCP -->
+    <script src="https://snapwidget.com/js/snapwidget.js" defer></script>
     <iframe src="https://snapwidget.com/embed/1077046" class="snapwidget-widget" allowtransparency="true"
       frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; height:600px;"
-      title="Posts from Instagram"></iframe>
+      title="Posts from Instagram" loading="lazy"></iframe>
   </section>
 
   <section id="resources" class="box-section">
