@@ -48,10 +48,10 @@ document.addEventListener("DOMContentLoaded", function () {
   // ------------------------------------------
   const heroContent = document.querySelector('.hero-content');
   if (heroContent) {
-    var heroChildren = heroContent.children;
-    for (var i = 0; i < heroChildren.length; i++) {
+    const heroChildren = heroContent.children;
+    for (let i = 0; i < heroChildren.length; i++) {
       (function(index) {
-        var child = heroChildren[index];
+        const child = heroChildren[index];
         child.style.opacity = '0';
         child.style.transform = 'translateY(30px)';
         child.style.transition = 'opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // ------------------------------------------
   // 4. Header Background on Scroll
   // ------------------------------------------
-  var headerEl = document.querySelector('header');
+  const headerEl = document.querySelector('header');
   if (headerEl) {
     window.addEventListener('scroll', function () {
       if (window.scrollY > 80) {
