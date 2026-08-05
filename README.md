@@ -15,7 +15,7 @@ Welcome to the official repository for the Shropshire Roots Brotherhood website.
 
 **Shropshire Roots Brotherhood** is a community interest organization dedicated to fostering a supportive environment for men's mental health. Our mission is to create a space for genuine conversations, transformative activities, and a deep connection with nature, helping men build strength, resilience, and integrity.
 
-This website serves as a central hub for information about our mission, upcoming events, donation opportunities, and ways to get involved.
+This website serves as a central hub for information about our mission, community activities, and ways to get involved.
 
 ## Getting Started
 
@@ -34,7 +34,7 @@ Ensure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/wjg7/roots.git
+    git clone https://github.com/wilfgrainger/roots.git
     ```
 
 2. Navigate to the project directory:
@@ -57,8 +57,8 @@ To view the website locally:
 ### Key Features
 
 - **Home Section**: Overview of the organization's mission and values.
-- **Donate Section**: Integration with PayPal for donations.
-- **Events Section**: Information on upcoming meetups and events.
+- **Merchandise Section**: Information about Roots Brotherhood merchandise.
+- **Community Section**: Links to the Brotherhood's public social channels.
 - **Social Media Integration**: Links to the organization's social media profiles.
 - **Responsive Design**: The website is designed to be responsive and user-friendly on all devices.
 
@@ -76,12 +76,12 @@ Please ensure that your contributions adhere to the coding standards and guideli
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE] file for more details.
+This project is licensed under the GNU General Public License v3. See the [LICENSE](LICENSE) file for more details.
 
 ## Contact
 
 If you have any questions or need further information, please feel free to contact us at:
 
-- Email: info@shropshireroots.org
-- Website: [Shropshire Roots Brotherhood](https://rootsbrotherhood.org)
-- GitHub: [wjg7](https://github.com/wjg7/roots)
+- Email: info@rootsbrotherhood.org
+- Website: [Shropshire Roots Brotherhood](https://www.rootsbrotherhood.org)
+- GitHub: [wilfgrainger/roots](https://github.com/wilfgrainger/roots)
